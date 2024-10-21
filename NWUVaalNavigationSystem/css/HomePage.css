@@ -1,0 +1,125 @@
+﻿/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: purple;
+    overflow: hidden;
+}
+
+    .navigation li {
+        float: left;
+        position: relative;
+    }
+
+    .navigation a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-bottom: 2px solid transparent; /* Add underline to links */
+    }
+
+    /* Style the dropdown menu */
+    .navigation li:hover > ul {
+        display: block;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+    }
+
+        .navigation ul li {
+            float: none;
+            width: 100%;
+        }
+
+        .navigation ul a {
+            padding: 12px 16px;
+            color: black;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+            .navigation ul a:hover {
+                background-color: #f1f1f1;
+            }
+
+    /* Position "Login" and "Sign-Up" to the far left */
+    .navigation li:first-child {
+        float: left;
+    }
+
+    .navigation li:last-child {
+        float: left;
+    }
+
+/* Center align the footer */
+footer {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+}
+
+/* Style the content division */
+.content {
+    background-color: white; /* Change the background color to white */
+    color: black; /* Change the font color to black */
+    padding: 20px;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+}
+
+/* Apply color from h1 to all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+}
+
+/* Style the horizontal image container for three images */
+.horizontal-images {
+    width: 100%; /* Set the container width to 100% */
+    overflow: hidden; /* Hide any overflow */
+    text-align: center; /* Center-align the images */
+    background-color: silver; /* Add silver background color */
+    padding: 10px; /* Add padding around the images */
+    box-sizing: content-box; /* Include padding in the container's total width */
+}
+
+    /* Style the images inside the horizontal image container */
+    .horizontal-images img {
+        display: inline-block; /* Display images horizontally */
+        max-width: 100%; /* Set maximum width for responsiveness */
+        height: max-content; /* Maintain aspect ratio */
+        vertical-align: middle; /* Vertically align images */
+        margin: 0 25px; /* Add horizontal margin between images */
+    }
+/* Style the horizontal pane for the video */
+.horizontal-pane {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: silver;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px; /* Add spacing above the video */
+    margin-bottom: 20px; /* Add spacing below the video */
+}
+
+    /* Style the video */
+    .horizontal-pane video {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }

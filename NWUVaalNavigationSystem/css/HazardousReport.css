@@ -1,0 +1,295 @@
+﻿/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: purple;
+    overflow: hidden;
+}
+
+    .navigation li {
+        float: left;
+        position: relative;
+    }
+
+    .navigation a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+    }
+
+    /* Style the dropdown menu */
+    .navigation li:hover > ul {
+        display: block;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+    }
+
+        .navigation ul li {
+            float: none;
+            width: 100%;
+        }
+
+        .navigation ul a {
+            padding: 12px 16px;
+            color: black;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+            .navigation ul a:hover {
+                background-color: #f1f1f1;
+            }
+
+    /* Position "Login" and "Sign-Up" to the far left */
+    .navigation li:first-child {
+        float: left;
+    }
+
+    .navigation li:last-child {
+        float: left;
+    }
+
+/* Center align the footer */
+footer {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+/* Style the content division */
+.content {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+    text-align: center; /* Center-align the content */
+}
+
+/* Apply color from h1 to all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+}
+
+/* Style the horizontal image container for three images */
+.horizontal-images {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+    .horizontal-images img {
+        display: inline-block;
+        max-width: 10%;
+        height: max-content;
+        vertical-align: middle;
+        margin: 0 25px;
+    }
+
+/* Style the horizontal pane for the video */
+.horizontal-pane {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+    .horizontal-pane video {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+/* Style the form groups for labels and textboxes */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        width: 140px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        max-width: 200px;
+    }
+
+/* Style the container for centered content */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.login-button {
+    width: 350px;
+    height: 250px;
+    margin-left: 152px;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.login-button-large {
+    width: 350px;
+    height: 200px;
+    font-size: 25px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+/* Style for aligning controls vertically in input-container */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Add margin to the input elements within input-container */
+.input-container input[type="text"],
+.input-container input[type="date"],
+.input-container input[type="textarea"],
+.input-container textarea {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: purple;
+    overflow: hidden;
+}
+
+/* ... (previous CSS rules) ... */
+
+/* Style for aligning controls vertically in input-container with spacing */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Add margin to the input elements within input-container */
+.input-container input[type="text"],
+.input-container input[type="date"],
+.input-container input[type="textarea"],
+.input-container textarea {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+
+
+
+/* ... (previous CSS rules) ... */
+
+/* Style for aligning controls vertically in input-container with spacing */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left-align labels */
+    margin-bottom: 10px;
+}
+
+    /* Style for labels within input-container */
+    .input-container label {
+        text-align: left; /* Left-align labels */
+        margin-right: 10px; /* Add some spacing between label and input */
+    }
+
+    /* Style for input elements within input-container */
+    .input-container input[type="text"],
+    .input-container input[type="date"],
+    .input-container textarea {
+        text-align: right; /* Right-align input fields */
+        margin-bottom: 10px; /* Adjust the margin as needed */
+        width: 100%; /* Ensure input fields take up the full width */
+    }
+
+
+
+/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: purple;
+    overflow: hidden;
+}
+
+/* ... (previous CSS rules) ... */
+
+/* Style for aligning controls vertically in input-container with spacing */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left-align labels */
+    margin-bottom: 10px;
+}
+
+    /* Style for labels within input-container */
+    .input-container label {
+        text-align: left; /* Left-align labels */
+        margin-right: 10px; /* Add some spacing between label and input */
+    }
+
+    /* Style for "Date" and "Report By" input elements within input-container */
+    .input-container input[type="date"],
+    .input-container input[type="text"][name="reportBy"] {
+        text-align: right; /* Right-align input fields */
+        margin-bottom: 10px; /* Adjust the margin as needed */
+        width: 100%; /* Make "Date" and "Report By" take 100% width */
+    }
+
+    /* Style for the rest of the input elements within input-container */
+    .input-container input[type="text"]:[name="reportBy"] {
+        text-align: right; /* Right-align input fields */
+        margin-bottom: 10px; /* Adjust the margin as needed */
+        width: auto; /* Keep the other input fields at auto width */
+    }

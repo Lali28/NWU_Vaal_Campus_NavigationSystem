@@ -1,0 +1,151 @@
+﻿/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: purple;
+    overflow: hidden;
+    padding: 15px 0; /* Add padding to the navigation bar */
+}
+
+    .navigation li {
+        float: left;
+        position: relative;
+        display: inline; /* Display the list items inline */
+        margin-right: 15px; /* Add spacing between links */
+    }
+
+        .navigation li:first-child {
+            margin-left: 15px; /* Add left margin to the first link */
+        }
+
+
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+    }
+
+        .navigation a:hover {
+            border-bottom: 2px solid white; /* Add underline effect on hover */
+        }
+
+/* Style the content division */
+.content {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+/* Apply color from h1 to all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+}
+
+/* Style the form groups for labels and textboxes */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        width: 140px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        max-width: 200px;
+    }
+
+/* Style the container for centered content */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the Sign Up button */
+.signup-button {
+    text-align: center;
+}
+
+/* Additional style for message div */
+.message {
+    color: purple;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Style the footer with a purple horizontal pane */
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid silver;
+    border-bottom: 2px solid silver;
+}
+
+/* Style the horizontal image container for three images */
+.horizontal-images {
+    width: 100%; /* Set the container width to 100% */
+    overflow: hidden; /* Hide any overflow */
+    text-align: center; /* Center-align the images */
+    background-color: white; /* Add silver background color */
+    padding: 10px; /* Add padding around the images */
+    box-sizing: content-box; /* Include padding in the container's total width */
+}
+
+    /* Style the images inside the horizontal image container */
+    .horizontal-images img {
+        display: inline-block; /* Display images horizontally */
+        max-width: 10%; /* Set maximum width for responsiveness */
+        height: max-content; /* Maintain aspect ratio */
+        vertical-align: middle; /* Vertically align images */
+        margin: 0 25px; /* Add horizontal margin between images */
+    }
+
+/* Style the container for centered content */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Style the form group for horizontal alignment */
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        width: 140px; /* Adjust label width */
+        font-weight: bold;
+        color: black;
+        margin-right: 10px; /* Add margin between label and input */
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+        flex: 1;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        max-width: 200px;
+    }

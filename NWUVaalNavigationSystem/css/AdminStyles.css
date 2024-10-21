@@ -1,0 +1,109 @@
+﻿/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: #800080; /* Dark purple background color */
+    overflow: hidden;
+    text-align: left; /* Left-align the links */
+    padding: 15px 0; /* Add padding to the navigation bar */
+}
+
+    .navigation li {
+        display: inline; /* Display the list items inline */
+        margin-right: 15px; /* Add spacing between links */
+    }
+
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        padding: 6px 10px; /* Add padding to the links */
+    }
+
+        .navigation a:hover {
+            border-bottom: 2px solid white; /* Add underline effect on hover */
+        }
+
+/* Style the content division */
+.content {
+    background-color: white; /* Change the background color to white */
+    color: black; /* Change the font color to black */
+    padding: 20px;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+    text-align: center; /* Center-align the content */
+}
+
+/* Apply color from h1 to all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #800080; /* Dark purple heading color */
+}
+
+/* Style the footer */
+footer {
+    background-color: #800080; /* Dark purple background color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+}
+
+/* Style the custom GridView */
+.custom-gridview {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 20px;
+    
+}
+
+    .custom-gridview th,
+    .custom-gridview td {
+        border: 1px solid #ccc;
+        padding: 8px;
+        text-align: left;
+    }
+
+    .custom-gridview th {
+        background-color: purple;
+    }
+
+    .custom-gridview tr:nth-child(even) {
+        background-color: gray;
+    }
+
+
+/* Additional CSS for the .col-md-6 section */
+.col-md-6 {
+    background-color: #f0f0f0; /* Background color */
+    padding: 20px; /* Padding around the section */
+    border: 1px solid #ccc; /* Border around the section */
+    margin-bottom: 20px; /* Margin between sections */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle 3D effect */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Center-align the content */
+}
+
+    /* Style for form controls within .col-md-6 */
+    .col-md-6 .form-group {
+        margin-bottom: 15px; /* Margin between form groups */
+    }
+
+
+/* CSS to align labels and textboxes */
+.content .form-group {
+    margin-bottom: 15px; /* Add spacing between form groups */
+    text-align: center; /* Align labels and textboxes to the left */
+}
+
+.content label {
+    display: block; /* Display labels as block elements */
+    font-weight: bold; /* Make labels bold if desired */
+    margin-bottom: 5px; /* Add spacing below labels */
+}

@@ -1,0 +1,132 @@
+﻿/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: purple;
+    overflow: hidden;
+}
+
+    .navigation li {
+        float: left;
+        position: relative;
+    }
+
+    .navigation a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-bottom: 2px solid transparent; /* Add underline to links */
+    }
+
+    /* Style the dropdown menu */
+    .navigation li:hover > ul {
+        display: block;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+    }
+
+        .navigation ul li {
+            float: none;
+            width: 100%;
+        }
+
+        .navigation ul a {
+            padding: 12px 16px;
+            color: black;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+            .navigation ul a:hover {
+                background-color: #f1f1f1;
+            }
+
+    /* Position "Login" and "Sign-Up" to the far left */
+    .navigation li:first-child {
+        float: left;
+    }
+
+    .navigation li:last-child {
+        float: left;
+    }
+
+/* Center align the footer */
+footer {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+}
+
+/* Style the content division */
+.content {
+    background-color: white; /* Change the background color to white */
+    color: black; /* Change the font color to black */
+    padding: 20px;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+    /* CSS for the panel */
+    .map-panel
+
+{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.map-input {
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 20px;
+    background-color: transparent;
+}
+
+    .map-input::placeholder {
+        color: #aaa;
+    }
+}
+
+.map-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.map-input {
+    width: 100%; /* Optional: Make the input fields expand to the container width */
+    padding: 10px;
+    margin: 5px;
+}
+
+.calculate-button {
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+h1 {
+    color: purple;
+}

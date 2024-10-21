@@ -1,0 +1,230 @@
+﻿/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: #4b0082; /* Dark purple background color */
+    overflow: hidden;
+    text-align: left; /* Left-align the links */
+    padding: 15px 0; /* Add padding to the navigation bar */
+}
+
+    .navigation li {
+        display: inline; /* Display the list items inline */
+        margin-right: 15px; /* Add spacing between links */
+    }
+
+    .navigation a {
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid transparent;
+        padding: 6px 10px; /* Add padding to the links */
+    }
+
+        .navigation a:hover {
+            border-bottom: 2px solid white; /* Add underline effect on hover */
+        }
+
+/* Style the content division */
+.content {
+    background-color: white; /* Change the background color to white */
+    color: black; /* Change the font color to black */
+    padding: 20px;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+    text-align: center; /* Center-align the content */
+}
+
+/* Apply color from h1 to all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #4b0082; /* Dark purple heading color */
+}
+
+/* Style the footer */
+footer {
+    background-color: #4b0082; /* Dark purple background color */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+}
+
+/* Reset some default styling */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Style the navigation bar */
+.navigation {
+    background-color: purple;
+    overflow: hidden;
+}
+
+    .navigation li {
+        float: left;
+        position: relative;
+    }
+
+    .navigation a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-bottom: 2px solid transparent; /* Add underline to links */
+    }
+
+    /* Style the dropdown menu */
+    .navigation li:hover > ul {
+        display: block;
+    }
+
+    .navigation ul {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+    }
+
+        .navigation ul li {
+            float: none;
+            width: 100%;
+        }
+
+        .navigation ul a {
+            padding: 12px 16px;
+            color: black;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+            .navigation ul a:hover {
+                background-color: #f1f1f1;
+            }
+
+    /* Position "Login" and "Sign-Up" to the far left */
+    .navigation li:first-child {
+        float: left;
+    }
+
+    .navigation li:last-child {
+        float: left;
+    }
+
+/* Center align the footer */
+footer {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+}
+
+/* Style the content division */
+.content {
+    background-color: white; /* Change the background color to white */
+    color: black; /* Change the font color to black */
+    padding: 20px;
+    border-top: 2px solid silver; /* Change line color to silver */
+    border-bottom: 2px solid silver; /* Change line color to silver */
+}
+
+/* Apply color from h1 to all headings */
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+}
+
+/* Style the horizontal image container for three images */
+.horizontal-images {
+    width: 100%; /* Set the container width to 100% */
+    overflow: hidden; /* Hide any overflow */
+    text-align: center; /* Center-align the images */
+    background-color: white; /* Add silver background color */
+    padding: 10px; /* Add padding around the images */
+    box-sizing: content-box; /* Include padding in the container's total width */
+}
+
+    /* Style the images inside the horizontal image container */
+    .horizontal-images img {
+        display: inline-block; /* Display images horizontally */
+        max-width: 10%; /* Set maximum width for responsiveness */
+        height: max-content; /* Maintain aspect ratio */
+        vertical-align: middle; /* Vertically align images */
+        margin: 0 25px; /* Add horizontal margin between images */
+    }
+/* Style the horizontal pane for the video */
+.horizontal-pane {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px; /* Add spacing above the video */
+    margin-bottom: 20px; /* Add spacing below the video */
+}
+
+    /* Style the video */
+    .horizontal-pane video {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+/* Style the form groups for labels and textboxes */
+.form-group {
+    display: flex;
+    align-items: center; /* Vertically align contents */
+    margin-bottom: 15px; /* Add spacing between form groups */
+}
+
+    .form-group label {
+        width: 140px; /* Adjust label width */
+        font-weight: bold; /* Make labels bold */
+        color: black; /* Change label color to purple */
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="password"] {
+        flex: 1; /* Allow the input to take remaining space */
+        padding: 8px; /* Add padding to the inputs */
+        border: 1px solid #ccc; /* Add border to inputs */
+        border-radius: 4px; /* Round the input corners */
+        max-width: 200px; /* Set maximum width for textboxes */
+    }
+/* Style the container for centered content */
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.login-button {
+    width: 350px;
+    height: 250px;
+    margin-left: 152px;
+}
+
+.forgot-password {
+    margin-top: 10px;
+    text-align: right;
+}
+
+
+.login-button-large {
+    width: 350px; /* Increase button width */
+    height: 200px; /* Increase button height */
+    font-size: 25px; /* Increase font size */
+    margin-left: 0; /* Remove margin-left */
+    margin-top: 20px; /* Add margin-top to separate button and link */
+}
